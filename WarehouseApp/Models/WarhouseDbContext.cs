@@ -19,7 +19,7 @@ namespace WarehouseApp.Models
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer("Data Source=ADMIN-PC\\SQLEXPRESS;Initial Catalog=WarehouseDb;Persist Security Info=True;User ID=sa;Password=Admin1");
+                options.UseSqlServer("Data Source=HOMEPC\\SQLEXPRESS;Initial Catalog=WarehouseDb;Persist Security Info=True;User ID=sa;Password=Admin1");
             }
         }
 
